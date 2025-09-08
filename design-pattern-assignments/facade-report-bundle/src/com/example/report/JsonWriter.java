@@ -7,7 +7,7 @@ public class JsonWriter {
             Files.createDirectories(outDir);
             Path p = outDir.resolve(fileName + ".json");
             try (BufferedWriter w = Files.newBufferedWriter(p)) {
-                w.write("{"ok":true,"name":"" + data.get("name") + ""}");
+                w.write("{\"ok\":true,\"name\":\"" + data.get("name") + "\"}");
             }
             return p;
         } catch (IOException e) { throw new UncheckedIOException(e); }
