@@ -1,0 +1,7 @@
+id,email,displayName
+user1,alice@example.com,Alice Smith
+user2,bob@test.org,Bob Johnson
+user3,invalid-email,Charlie Brown
+user4,,David Wilson
+user5,eve@company.com,Eve Davis
+user6,frank@domain.net,Frank Miller
