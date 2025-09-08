@@ -38,6 +38,7 @@ public class Client {
       all.add(new EmployeeLDAPAdapter(ldapEmployee));
     }
 
+    
 
     EmployeePrinter.print(all);
   }
